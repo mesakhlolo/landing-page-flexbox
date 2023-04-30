@@ -5,7 +5,7 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -104,6 +104,7 @@ body {
   align-items: center;
   text-align: center;
   max-width: 160px;
+  gap: 10px;
 }
 
 .square {
@@ -130,4 +131,59 @@ body {
   color: #1f2937;
   font-weight: 700;
   text-align: end;
+}
+
+/* sign-up section */
+.sign-up {
+  padding: 5rem 15%;
+}
+
+.sign-up .container {
+  background-color: #3882f6;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.sign-up .container .left .sign-up-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sign-up .container .left .sign-up-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sign-up .container .right button {
+  border: 2.5px solid #fff;
+  background-color: #3882f6;
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 120px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+/* footer section  */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #1f2937;
+  padding: 32px 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer p a {
+  color: #fff;
 }
